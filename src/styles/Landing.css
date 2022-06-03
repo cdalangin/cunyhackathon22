@@ -5,11 +5,6 @@
 
 #landing {
     height: 100vh;
-    background-color: #604A78;
-    background-image: url("../assets/BgAccents.png");
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 .main-graphic {

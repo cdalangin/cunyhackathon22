@@ -1,5 +1,11 @@
 .App {
   text-align: center;
   /* cursor: url("./assets/RetroCursor.png"), auto;  */
+  background-color: #604A78;
+  color: white;
+  background-image: url("./assets/BgAccents.png");
+  background-position: cover;
+  background-repeat: repeat-y;
+  background-size: 100%;
 }
 
