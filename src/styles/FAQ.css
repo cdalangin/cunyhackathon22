@@ -17,23 +17,39 @@ h1, h3 {
     font-family: "RetroComputer";
 }
 
+.faq-title {
+    padding: 1vh;
+}
+
 .faq-bg {
     background-image: url("../assets/faqbg.png");
-    background-position: center;
-    background-size: contain;
+    background-position: top;
+    background-size: auto;
     background-repeat: repeat-y;
     width: 80vw;
     min-height: 50vh;
+    margin: 5vh;
+    /* padding-left: 5vh; */
+    text-align: left;
 }
 
 .ques-section {
-    padding: 10px;
+    padding: 2vh;
     color: #604A78;
-
+    margin-left: 10px;
 }
 
 .ques {
     font-family: "RetroComputer";
+    font-size: 2vh;
+    margin: 1vh 0;
+    cursor: pointer;
+    list-style-image: url("../assets/purparrow.png");
+}
+
+.ques-arrow {
+    vertical-align: text-top;
+    margin-right: 2vh;
 }
 
 .show-ans {
@@ -47,4 +63,16 @@ h1, h3 {
 
 .ans {
     font-family: 'Rhodium Libre', serif;
+    font-size: 1.8vh;
+    margin-left: 2vh;
+}
+
+@media screen and (min-width: 768px) {
+    .ques {
+        font-size: 3vh;
+    }
+
+    .ans {
+        font-size: 2.5vh;
+    }
 }

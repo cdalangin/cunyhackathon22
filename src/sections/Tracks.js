@@ -15,31 +15,31 @@ export default function Tracks() {
             id: 1,
             name: "Entertainment",
             icon: Entertainment,
-            description: "Games, Art, and Music"
+            description: "Games, Art, & Music"
         },
         {
             id: 2,
             name: "Urban Tech (For NYC)",
             icon: Urban,
-            description: "Environmental Sustainability, GovTech, and Transportation"
+            description: "Environmental Sustainability, GovTech, & Transportation"
         },
         {
             id: 3,
             name: "Finance",
             icon: Finance,
-            description: "Personal Finances, Blockchain, and Budgeting"
+            description: "Personal Finances, Blockchain, & Budgeting"
         },
         {
             id: 4,
             name: "Education",
             icon: Education,
-            description: "Productivity, Online, Learning, and College Life"
+            description: "Productivity, Online, Learning, & College Life"
         },
         {
             id: 5,
             name: "Healthcare",
             icon: Healthcare,
-            description: "Physical Health, Mental Health, and Wellness"
+            description: "Physical Health, Mental Health, & Wellness"
         }
     ]
 
