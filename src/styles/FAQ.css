@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "RetroComputer";
+    src: url("../assets/fonts/RetroComputer.ttf") format("truetype");
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
+
+#faq {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+h1, h3 {
+    font-family: "RetroComputer";
+}
+
+.faq-bg {
+    background-image: url("../assets/faqbg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat-y;
+    width: 80vw;
+    min-height: 50vh;
+}
+
+.ques-section {
+    padding: 10px;
+    color: #604A78;
+
+}
+
+.ques {
+    font-family: "RetroComputer";
+}
+
+.show-ans {
+    display: block;
+}
+
+.hide-ans {
+    display: none;
+    transition-delay: 10ms;
+}
+
+.ans {
+    font-family: 'Rhodium Libre', serif;
+}
