@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "RetroComputer";
+    src: url("../assets/fonts/RetroComputer.ttf") format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
+
+h1, h3 {
+    font-family: "RetroComputer";
+}
+
+#about {
+    min-height: 100vh;   
+}
+
+.text-section {
+    background-color: #B9619D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-txt {
+    font-size:30px;
+    text-align:left;
+    padding-left: 5vh;
+}
+
+.about-img {
+    height: 80vh;
+    float: right;
+}
