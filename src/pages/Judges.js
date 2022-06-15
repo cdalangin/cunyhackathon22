@@ -1,5 +1,5 @@
 import React from "react"
-// import './Judges.css'; 
+import '../styles/Judges.css'; 
 
 export default function Judges() {
   return (
