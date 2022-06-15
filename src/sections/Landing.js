@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet, Link } from "react-router-dom";
 import "../styles/Landing.css"
 import LG from "../assets/LandingGraphic.png"
 import E from "../assets/E.png"
@@ -14,14 +15,14 @@ export default function Landing() {
                 <img src={LG} alt="landing graphic" className="ld-graphic"/>
             </div>
             <div className="sidebar">
-                <div class="nav-icons">
+                <Link to="/mentor" class="nav-icons">
                     <img src={Computer} alt="computer icon" className="icons" />
                     <p className="icon-title">MENTOR</p>
-                </div>
-                <div class="nav-icons">
+                </Link>
+                <Link to="/judges" class="nav-icons">
                     <img src={Folder} alt="folder icon" className="icons" />
                     <p className="icon-title">JUDGES</p>
-                </div>
+                </Link>
                 <div class="nav-icons">
                     <img src={E} alt="internet explorer icon" className="icons" />
                     <p className="icon-title">PARTICIPANTS</p>

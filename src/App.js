@@ -1,20 +1,20 @@
-import logo from './logo.svg';
-import Landing from "./sections/Landing.js"
-import Tracks from "./sections/Tracks.js"
-import FAQ from './sections/FAQ';
-import './App.css';
-import About from './sections/About';
+import React from "react";
+import {  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+import Main from './pages/Main.js'
+import Mentor from './pages/Mentor.js'
+import Judges from './pages/Judges.js'
 
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Landing />
-      <About />
-      <Tracks />
-      <FAQ />
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/judges" element={<Judges />} />
+      <Route path="/mentor" element={<Mentor />} />
+    </Routes>
+  </BrowserRouter>
   );
 }
-
-export default App;

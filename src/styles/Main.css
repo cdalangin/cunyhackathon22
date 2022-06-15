@@ -1,0 +1,10 @@
+.main {
+    text-align: center;
+    background-color: #604A78;
+    color: white;
+    background-image: url("../assets/BgAccents.png");
+    background-position: cover;
+    background-repeat: repeat-y;
+    background-size: 100%;
+  }
+  
