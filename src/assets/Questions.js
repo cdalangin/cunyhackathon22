@@ -11,12 +11,12 @@ export const questions = [
     // },
     {
         ques: "How can I prepare for the hackathon?",
-        ans: "Our hackathon is very beginner friendly! We have intro workshops tailored to first-time hackers and mentors to support you throughout the event! Be sure to join the discord server to get the latest updates and to communicate with your peers and the organizers.",
+        ans: "Our hackathon is very beginner friendly! We have intro workshops tailored to first-time hackers and mentors to support you throughout the event! If you're participating in-person, be sure to check out our checklist of things to pack. If you're hacking virtually from outside of NYC, be sure to download and have an account on Discord and on Zoom. ",
         shown: false,
     },
     {
         ques: "Do I need to be good at coding?",
-        ans: "No, you don’t need ANY coding experience to participate! If you do, that’s great! If you don’t, that’s also great! Students of all skill levels are encouraged to attend, even if you’ve never written a line of code. We’re very beginner friendly and are prepared to teach you everything you need to learn right here.",
+        ans: "No, you don’t need ANY coding experience to participate! If you do, that’s great! If you don’t, that’s also great! Students of all skill levels are encouraged to attend, even if you’ve never written a line of code. We’re very beginner friendly and are prepared to teach you what you need to learn right here.",
         shown: false,
     },
     {
@@ -26,12 +26,12 @@ export const questions = [
     },
     {
         ques: "What should I make?",
-        ans: "You can create any project, as long as you haven’t started it before the hackathon begins. If you need any ideas, we will have tracks that you can follow.",
+        ans: "You can create any project, as long as you haven’t started it before the hackathon begins. If you need any ideas, we have tracks and sponsor challenges that can help you decide.",
         shown: false,
     },
     {
-        ques: "Who can attend CUNY Hackathon 2021?",
-        ans: "Any current matriculated (this means degree earning) student or recent graduate (within a year of graduation) is welcome to join, regardless of skill level or declared major. We unfortunately do not allow professionals to compete in this hackathon. We encourage you to invite all your friends as we welcome beginners. Teams won’t just need programmers they’ll need designers, product managers, entrepreneurs, and more.",
+        ques: "Who can attend CUNY Hackathon 2022?",
+        ans: "Any current undergraduate, graduate, or bootcamp student or recent graduate (within a year of graduation) above the age of 18 is welcome to join, regardless of skill level or declared major. We unfortunately do not allow professionals to compete in this hackathon. We encourage you to invite all your friends as we welcome beginners. Teams won’t just need programmers they’ll also need designers, product managers, marketers, entrepreneurs, and more!",
         shown: false,
     },
     {
@@ -41,27 +41,22 @@ export const questions = [
     },
     {
         ques: "Will there still be sponsors for us to talk to?",
-        ans: "Yes! We will be organizing numerous networking sessions for you to talk to sponsors during the hackathon weekend.",
+        ans: "Yes! We will be organizing numerous networking sessions for you to talk to sponsors during the hackathon weekend. If you register with your resume and are participating in-person, you also have a chance to be interviewed by our biggest sponsors right at the hackathon!",
         shown: false,
     },
     {
         ques: "Will there still be swag?",
-        ans: "Yes! We have a strong team researching the best swag given our virtual event. In order to get swag, you must submit a project at the end of the event.",
-        shown: false,
-    },
-    {
-        ques: "Will it still be awesome and interactive?",
-        ans: "Yes absolutely! There will be hangouts, open session hacker chats, and networking sessions to talk to one another as well as interactive workshops hosted by our awesome sponsors.",
+        ans: "Yes! In order to get swag, you must submit a project at the end of the event.",
         shown: false,
     },
     {
         ques: "How will mentoring work?",
-        ans: "Mentoring will all be done through Discord which will allow you to message a specific mentor or send a general message. You can use the #ask-a-mentor channel or any other channel in the support category.",
+        ans: "Mentoring will primarily be done through Discord which will allow you to message a specific mentor or send a general message. You can use the #ask-a-mentor channel or any other channel in the support category.",
         shown: false,
     },
     {
         ques: "What software will I need?",
-        ans: "We will have our main communication over Discord and Zoom. We recommend a place with stable internet connection so that you can attend all workshops and communicate effectively with your team. We are working on solutions for those who do not have access to a place with a stable internet connection.",
+        ans: "We will have our main communication over Discord and Zoom. We recommend a place with stable internet connection so that you can attend all workshops and communicate effectively with your team.",
         shown: false,
     },
     {
@@ -69,14 +64,9 @@ export const questions = [
         ans: "You can submit your solution/project on Devpost. We will have a submissions workshop to help those unfamiliar with Devpost.",
         shown: false,
     },
-    {
-        ques: "Where do I go to attend a session?",
-        ans: "All workshops, events, and networking with both your peers and the company recruiters will take place on Zoom. It will be the same Zoom link for all sessions, apart from the career fair.",
-        shown: false,
-    },
-    {
-        ques: "What are the rules?",
-        ans: "Major League Hacking has a Code of Conduct that all participants must abide by before, during, and after the event. TL;DR. Be respectful. Harassment and abuse are never tolerated. <br/><br/>If you are in a situation that makes you uncomfortable at an MLH Member Event, if the event itself is creating an unsafe or inappropriate environment, or if interacting with a MLH representative or event organizer makes you uncomfortable, please report it using the procedures included in this <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>document</a>.",
-        shown: false,
-    },
+//     {
+//         ques: "What are the rules?",
+//         ans: "Major League Hacking has a Code of Conduct that all participants must abide by before, during, and after the event. TL;DR. Be respectful. Harassment and abuse are never tolerated. <br/><br/>If you are in a situation that makes you uncomfortable at an MLH Member Event, if the event itself is creating an unsafe or inappropriate environment, or if interacting with a MLH representative or event organizer makes you uncomfortable, please report it using the procedures included in this <a href='https://static.mlh.io/docs/mlh-code-of-conduct.pdf'>document</a>.",
+//         shown: false,
+//     },
 ]
