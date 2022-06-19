@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "RetroComputer";
+    src: url("../assets/fonts/RetroComputer.ttf") format("truetype");
+} 
+
+#spon {
+    min-height: 100vh;
+}
+
+.spon-title {
+    padding: 1vh;
+}
+
+.spon-bg {
+    background-repeat: no-repeat;
+    /* background-size: 90vw; */
+    /* max-width: 100vw; */
+}
+
+.spon-top {
+    background-image: url("../assets/sponsors/spontop.png");
+    background-position: bottom;
+    background-size: 90vw;
+    height: 15vh;
+}
+
+.spon-mid {
+    background-image: url("../assets/sponsors/sponmid.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: 90vw;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.spon-bot {
+    background-image: url("../assets/sponsors/sponbottom.png");
+    background-position: top;
+    background-size: 90vw;
+    height: 15vh;
+}
+
+@media screen and (min-width: 576px) { 
+    .spon-top {
+        height: 30vh;
+    }
+
+    .spon-bot {
+        height: 30vh;
+    }
+}
+
+@media screen and (min-width: 1200px) { 
+    .spon-top {
+        height: 50vh;
+    }
+
+    .spon-bot {
+        height: 50vh;
+    }
+}
