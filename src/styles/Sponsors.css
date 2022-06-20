@@ -3,25 +3,24 @@
     src: url("../assets/fonts/RetroComputer.ttf") format("truetype");
 } 
 
-#spon {
+/* #spon {
     min-height: 100vh;
-}
+} */
 
 .spon-title {
-    padding: 1vh;
+    padding: 4vh 2vh 0 2vh;
+    margin-bottom: 0;
 }
 
 .spon-bg {
     background-repeat: no-repeat;
-    /* background-size: 90vw; */
-    /* max-width: 100vw; */
 }
 
 .spon-top {
     background-image: url("../assets/sponsors/spontop.png");
     background-position: bottom;
     background-size: 90vw;
-    height: 15vh;
+    height: 10vh;
 }
 
 .spon-mid {
@@ -40,25 +39,29 @@
     background-image: url("../assets/sponsors/sponbottom.png");
     background-position: top;
     background-size: 90vw;
-    height: 15vh;
+    height: 10vh;
+}
+
+.spon-logo {
+    width: 25vw;
 }
 
 @media screen and (min-width: 576px) { 
     .spon-top {
-        height: 30vh;
+        height: 25vh;
     }
 
     .spon-bot {
-        height: 30vh;
+        height: 25vh;
     }
 }
 
 @media screen and (min-width: 1200px) { 
     .spon-top {
-        height: 50vh;
+        height: 40vh;
     }
 
     .spon-bot {
-        height: 50vh;
+        height: 40vh;
     }
 }

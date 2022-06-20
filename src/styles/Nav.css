@@ -5,8 +5,8 @@
 
 .sidebar {
     position: absolute;
-    /* top: 1; */
-    /* left: 0; */
+    top: 1;
+    left: 0;
 }
 
 .nav-icons {

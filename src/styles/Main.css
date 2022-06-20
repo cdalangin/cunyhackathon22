@@ -6,5 +6,6 @@
     background-position: cover;
     background-repeat: repeat-y;
     background-size: 100%;
+    overflow-x: hidden;
   }
   

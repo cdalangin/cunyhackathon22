@@ -9,25 +9,45 @@ h1, h3 {
     font-family: "RetroComputer";
 }
 
-#about {
-    min-height: 100vh;   
-}
+/* #about {
+    background-color: #B9619D;
+} */
 
 .text-section {
     background-color: #B9619D;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 .about-txt {
-    font-size:30px;
+    font-size:20px;
     text-align:left;
-    padding-left: 5vh;
+}
+
+.txt1 {
+    padding: 5vh 2vh 0 2vh;
+}
+
+.txt2 {
+    padding: 0 2vh 5vh 2vh;
 }
 
 .about-img {
-    height: 80vh;
+    display: inline;
+    height: 25vh;
+    margin: 2vh 0 0vh 2vh;
+    padding: 2vh 0 2vh 2vh;
     float: right;
+}
+
+@media screen and (min-width: 768px) {
+    .text-section {
+        flex-direction: row;
+    }
+
+    .about-txt {
+        font-size:30px;
+    }
+
+    .about-img {
+        height: 40vh;
+    }
 }

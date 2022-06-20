@@ -3,18 +3,17 @@
     src: url("../assets/fonts/RetroComputer.ttf") format("truetype");
 } 
 
-#org {
+/* #org {
     min-height: 100vh;
-}
+} */
 
 .org-title {
-    padding: 1vh;
+    padding: 0 2vh 0 2vh;
+    margin: 0;
 }
 
 .org-bg {
     background-repeat: no-repeat;
-    /* background-size: 90vw; */
-    /* max-width: 100vw; */
 }
 
 .org-top {
