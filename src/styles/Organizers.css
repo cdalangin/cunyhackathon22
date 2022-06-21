@@ -29,9 +29,10 @@
     background-position: center;
     min-height: 50vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-family: RetroComputer;
 }
 
 .org-bot {
@@ -39,6 +40,22 @@
     background-position: top;
     height: 10vh;
 }
+
+.org-all {
+    width: 70vw;
+    padding: 3vw;
+}
+
+.org-img {
+    width: 10vw;
+    border-radius: 50%;
+}
+
+.org-name {
+    font-size: 2vh;
+    color: #604A78;
+}
+
 
 @media screen and (min-width: 576px) { 
     .org-bg {
