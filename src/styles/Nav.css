@@ -5,8 +5,8 @@
 
 .sidebar {
     position: absolute;
-    top: 1;
-    left: 0;
+    top: 1.5vh;
+    left: 1.5vw;
 }
 
 .nav-icons {
@@ -24,5 +24,7 @@
 .icon-title {
     font-family: "RetroComputer";
     font-size: 12px;
+    text-decoration: none;
     color: white;
+    text-shadow:  2px 2px 5px rgba(0, 0, 0, 0.5);
 }

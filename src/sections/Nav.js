@@ -1,4 +1,5 @@
 import React from "react"
+import Sticky from 'react-sticky-el';
 import '../styles/Nav.css'; 
 import { Outlet, Link } from "react-router-dom";
 import E from "../assets/E.png"
@@ -9,6 +10,7 @@ import Computer from "../assets/computer.png"
 export default function Nav() {
 
     return (
+        <Sticky>
         <div className="sidebar">
             <Link to="/mentor" className="nav-icons">
                 <img src={Computer} alt="computer icon" className="icons" />
@@ -23,5 +25,6 @@ export default function Nav() {
                 <p className="icon-title">PARTICIPANTS</p>
             </div>
         </div>
+        </Sticky>
     )
 }

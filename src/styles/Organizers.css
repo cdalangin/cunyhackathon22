@@ -14,20 +14,19 @@
 
 .org-bg {
     background-repeat: no-repeat;
+    background-size: 80vw;
 }
 
 .org-top {
     background-image: url("../assets/organizers/orgtop.png");
     background-position: bottom;
-    background-size: 90vw;
-    height: 15vh;
+    height: 10vh;
 }
 
 .org-mid {
     background-image: url("../assets/organizers/orgmid.png");
     background-repeat: repeat-y;
     background-position: center;
-    background-size: 90vw;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
@@ -38,26 +37,29 @@
 .org-bot {
     background-image: url("../assets/organizers/orgbottom.png");
     background-position: top;
-    background-size: 90vw;
-    height: 15vh;
+    height: 10vh;
 }
 
 @media screen and (min-width: 576px) { 
-    .org-top {
-        height: 30vh;
+    .org-bg {
+        background-size: 60vw;
     }
 
+    .org-top {
+        height: 20vh;
+    }
+    
     .org-bot {
-        height: 30vh;
+        height: 20vh;
     }
 }
 
 @media screen and (min-width: 1200px) { 
     .org-top {
-        height: 50vh;
+        height: 30vh;
     }
 
     .org-bot {
-        height: 50vh;
+        height: 30vh;
     }
 }
