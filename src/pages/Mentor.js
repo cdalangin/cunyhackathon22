@@ -18,20 +18,23 @@ export default function Mentor() {
   ];
   return (
     <div>
-     <div className="main" style={{ minHeight: "100vh" }}>
-        <Nav />
+      <Nav />
+     <div id="mentor" className="main">
+        
         {mentorText.map((mentor) => {
           return (
             <div className="mentor-box">
+              <div className="mentor-text">
               <h3 className="mentor-title">{mentor.title}</h3>
-              <img src={mentor.icon} alt={mentor.name} className="mentor-icon" />
               <p className="mentor-desc">{mentor.description}</p>
+              <Link to="/mentor">
+                <img src={applyNow} alt="apply now icon" className="apply-now" />
+              </Link>
+              </div>
             </div>
           );
         })}
-        <Link to="/mentor">
-          <img src={applyNow} alt="apply now icon" className="apply-now" />
-        </Link>
+        
       </div>
     </div>
   );
