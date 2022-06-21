@@ -1,43 +1,63 @@
-cucumber - behavior driven 
- - test automation
-- 'THEN' is what youre testing
-
-dormik
-external libeaya
-controls form sates
-
-shallow redner runs test much quicker than mount
-help with just testing one component
-
-console.log(wrapper.debug()) - show what it is rendering
-
-jest & ebzymen=====tetsing framework
-
-snapshoy testing best to use shallow
-
-.main{
-
-    background-color: #604A78;
-    color: white;
-    background-image: url("../assets/BgAccents.png");
-    background-position: cover;
-    background-repeat: repeat-y;
-    background-size: 100%;
-}
-
-.judge-box{
+#judges {
+    min-height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.judge-desc{
-    font-size:30px;
-    text-align:left;
-    padding-left: 5vh;
+.judges-box {
+    height: 55vh;
+    width: auto;
+    background-image: url("../assets/clipboard.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.judge-title{
+.judges-text {
+    width: 50%;
+    font-size: 1.8vh;
+}
 
+.apply-now {
+    height: 3vh;
+}
+
+@media screen and (min-width: 500px) {
+    .judges-box {
+        height: 80vh;
+    }
+    .judges-text {
+        width: 45%;
+        font-size: 2.3vh;
+    }
+    .apply-now {
+        height: 5vh;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .judges-box {
+        height: 80vh;
+    }
+    .judges-text {
+        width: 40%;
+        font-size: 2.5vh;
+    }
+    .apply-now {
+        height: 5vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .judges-text {
+        width: 25%;
+        font-size: 2.8vh;
+    }
 }

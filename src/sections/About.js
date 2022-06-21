@@ -20,8 +20,7 @@ export default function About() {
 
                     <p className="about-txt txt2">With the goal of bringing together
                     students in software development,
-                    design, marketing and entrepre-
-                    neurship to build solutions for 
+                    design, marketing and entrepreneurship to build solutions for 
                     problems unique to the New York 
                     City community, this 36-hour event
                     will see students create projects

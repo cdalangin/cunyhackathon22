@@ -13,10 +13,7 @@ import Organizers from "../sections/Organizers.js";
 export default function Main() {
   return (
     <div className="main">
-      {/* <Sticky> */}
-        <Nav/>
-      {/* </Sticky> */}
-      
+    <Nav />
       <Landing />
       <About />
       <Tracks />
@@ -24,5 +21,6 @@ export default function Main() {
       <Sponsors />
       <Organizers />
     </div>
+    
   );
 }

@@ -17,10 +17,8 @@ export default function Mentor() {
     },
   ];
   return (
-    <div>
-      <Nav />
      <div id="mentor" className="main">
-        
+     <Nav />
         {mentorText.map((mentor) => {
           return (
             <div className="mentor-box">
@@ -36,6 +34,5 @@ export default function Mentor() {
         })}
         
       </div>
-    </div>
   );
 }

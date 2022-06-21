@@ -2,8 +2,6 @@ import React from "react";
 import "../styles/Landing.css"
 import LG from "../assets/LandingGraphic.png"
 
-
-
 export default function Landing() {
 
     return (

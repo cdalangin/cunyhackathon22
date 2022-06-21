@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Main.css";
+import "../styles/Judges.css";
 import Nav from "../sections/Nav";
 import clipboard from "../assets/clipboard.png";
 import applyNow from "../assets/applyNow.png";
@@ -18,23 +19,23 @@ export default function Judges() {
   ];
  
   return (
-    <div>
-      <div className="main" style={{ minHeight: "100vh" }}>
+     <div id="judges" className="main">
         <Nav />
-        {judgeText.map((judge) => {
+        {judgeText.map((mentor) => {
           return (
-            <div className="judge-box">
-              <h3 className="judge-title">{judge.title}</h3>
-              <img src={judge.icon} alt={judge.name} className="judge-icon" />
-              <p className="judge-desc">{judge.description}</p>
+            <div className="judges-box">
+              <div className="judges-text">
+              <h3 className="judges-title">{mentor.title}</h3>
+              <p className="judges-desc">{mentor.description}</p>
+              <Link to="/judges">
+                <img src={applyNow} alt="apply now icon" className="apply-now" />
+              </Link>
+              </div>
             </div>
           );
         })}
-        <Link to="/mentor">
-          <img src={applyNow} alt="apply now icon" className="apply-now" />
-        </Link>
+        
       </div>
-    </div>
   );
 }
  

@@ -10,7 +10,8 @@ import Computer from "../assets/computer.png"
 export default function Nav() {
 
     return (
-        <Sticky>
+        // TODO: Highlight Active page
+        // <Sticky>
         <div className="sidebar">
             <Link to="/mentor" className="nav-icons">
                 <img src={Computer} alt="computer icon" className="icons" />
@@ -25,6 +26,6 @@ export default function Nav() {
                 <p className="icon-title">PARTICIPANTS</p>
             </div>
         </div>
-        </Sticky>
+        // </Sticky>
     )
 }
