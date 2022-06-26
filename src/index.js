@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { HashRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import App from './App';
+import Mentor from './pages/Mentor.js'
+import Judges from './pages/Judges.js'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/judges" element={<Judges />} />
+      <Route path="/mentor" element={<Mentor />} />
+    </Routes>
+  </HashRouter>
   </React.StrictMode>
 );
 
