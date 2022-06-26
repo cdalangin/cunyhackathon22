@@ -3,13 +3,27 @@
     src: url("../assets/fonts/RetroComputer.ttf") format("truetype");
 } 
 
-/* #org {
-    min-height: 100vh;
-} */
+/* Also Includes tba stuff, delete when no longer needed */
+#tba {
+    margin-top: 8vh;
+}
+
+.tba-text {
+    font-size: 2.5vh;
+    color: #604A78;
+}
+
+.tba-follow {
+    background-color: #B9619D;
+    padding: 1.5vh;
+    border-radius: 1vh;
+    cursor:pointer;
+}
 
 .org-title {
     padding: 0 2vh 0 2vh;
-    margin: 0;
+    margin: 5vh 0;
+    font-size: 4vh;
 }
 
 .org-bg {
@@ -29,7 +43,9 @@
     background-position: center;
     min-height: 50vh;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; THIS IS FOR ORG */
+    flex-direction: column; 
+    padding: 0 28vw;
     align-items: center;
     justify-content: center;
     font-family: RetroComputer;
@@ -58,6 +74,11 @@
 
 
 @media screen and (min-width: 576px) { 
+    .org-title {
+        margin-top: 5vh;
+        margin-bottom: -1vh;
+        font-size: 5vh;
+    }
     .org-bg {
         background-size: 60vw;
     }
@@ -69,14 +90,26 @@
     .org-bot {
         height: 20vh;
     }
+
+    .tba-text {
+        font-size: 3vh;
+    }
 }
 
 @media screen and (min-width: 1200px) { 
+    .org-title {
+        margin-top: 7vh;
+        font-size: 7vh;
+    }
     .org-top {
         height: 30vh;
     }
 
     .org-bot {
         height: 30vh;
+    }
+
+    .tba-text {
+        font-size: 4vh;
     }
 }

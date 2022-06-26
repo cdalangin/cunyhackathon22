@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rhodium+Libre&display=swap');
+
+#footer {
+    padding: 5vh 25vw;
+    font-family: 'Rhodium Libre', serif;
+    background-image: url("../assets/faqbg.png");
+}
+
+.footer-text {
+    margin: 0;
+    color: #604A78;
+    font-size: 3vh;
+}
+
+@media screen and (min-width: 768px) {
+    #footer {
+        padding: 8vh 25vw;
+        font-family: 'Rhodium Libre', serif;
+        background-image: url("../assets/faqbg.png");
+        
+    }
+    
+    .footer-text {
+        margin: 0;
+        color: #604A78;
+        font-size: 4vh;
+    }
+}

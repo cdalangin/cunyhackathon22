@@ -7,7 +7,7 @@ export default function Landing() {
     return (
         <div id="landing">
             <div className="main-graphic">
-                <img src={LG} alt="landing graphic" className="ld-graphic"/>
+                <img src={LG} alt="landing graphic" className="ld-graphic hvr-hang"/>
             </div>
         </div>
     )
