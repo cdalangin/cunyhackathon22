@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cunyhackathon22/static/css/main.02fb793b.css",
-    "main.js": "/cunyhackathon22/static/js/main.d192d9a1.js",
+    "main.js": "/cunyhackathon22/static/js/main.7d657683.js",
     "static/js/787.edb80a52.chunk.js": "/cunyhackathon22/static/js/787.edb80a52.chunk.js",
     "static/media/google.png": "/cunyhackathon22/static/media/google.0414d84ee5644ebec784.png",
     "static/media/ferduse.jpg": "/cunyhackathon22/static/media/ferduse.de43c080039b8cddfac9.jpg",
@@ -19,11 +19,11 @@
     "static/media/RetroComputer.ttf": "/cunyhackathon22/static/media/RetroComputer.d3aa5fc07030eb5f05a3.ttf",
     "index.html": "/cunyhackathon22/index.html",
     "main.02fb793b.css.map": "/cunyhackathon22/static/css/main.02fb793b.css.map",
-    "main.d192d9a1.js.map": "/cunyhackathon22/static/js/main.d192d9a1.js.map",
+    "main.7d657683.js.map": "/cunyhackathon22/static/js/main.7d657683.js.map",
     "787.edb80a52.chunk.js.map": "/cunyhackathon22/static/js/787.edb80a52.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02fb793b.css",
-    "static/js/main.d192d9a1.js"
+    "static/js/main.7d657683.js"
   ]
 }
