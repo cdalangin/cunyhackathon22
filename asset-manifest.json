@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/cdalangin/cunyhackathon22/static/css/main.ae50b0dc.css",
-    "main.js": "/cdalangin/cunyhackathon22/static/js/main.08c08dae.js",
-    "static/js/787.edb80a52.chunk.js": "/cdalangin/cunyhackathon22/static/js/787.edb80a52.chunk.js",
-    "static/media/google.png": "/cdalangin/cunyhackathon22/static/media/google.0414d84ee5644ebec784.png",
-    "static/media/ferduse.jpg": "/cdalangin/cunyhackathon22/static/media/ferduse.de43c080039b8cddfac9.jpg",
-    "static/media/huilin.jpg": "/cdalangin/cunyhackathon22/static/media/huilin.71fd06071361a29ecd8c.jpg",
-    "static/media/globe.png": "/cdalangin/cunyhackathon22/static/media/globe.97aa9c296d6f61f13dbd.png",
-    "static/media/LandingGraphic.png": "/cdalangin/cunyhackathon22/static/media/LandingGraphic.ae1e8da295e49d8c1967.png",
-    "static/media/BgAccents.png": "/cdalangin/cunyhackathon22/static/media/BgAccents.fb6146e2af499290cd25.png",
-    "static/media/clipboard.png": "/cdalangin/cunyhackathon22/static/media/clipboard.be497babe0d7aa20eee2.png",
-    "static/media/education.png": "/cdalangin/cunyhackathon22/static/media/education.f473eb9fb3775bbda1bd.png",
-    "static/media/faqbg.png": "/cdalangin/cunyhackathon22/static/media/faqbg.5d88c015f954eaab1fb1.png",
-    "static/media/hospital.png": "/cdalangin/cunyhackathon22/static/media/hospital.bf261361c0fcf2177418.png",
-    "static/media/entertainment.png": "/cdalangin/cunyhackathon22/static/media/entertainment.b1cac9fe99f99d3618c4.png",
-    "static/media/orgbottom.png": "/cdalangin/cunyhackathon22/static/media/orgbottom.ad952b41fb6e9fe77641.png",
-    "static/media/orgtop.png": "/cdalangin/cunyhackathon22/static/media/orgtop.be7914a806819c990122.png",
-    "static/media/RetroComputer.ttf": "/cdalangin/cunyhackathon22/static/media/RetroComputer.d3aa5fc07030eb5f05a3.ttf",
-    "index.html": "/cdalangin/cunyhackathon22/index.html",
-    "main.ae50b0dc.css.map": "/cdalangin/cunyhackathon22/static/css/main.ae50b0dc.css.map",
-    "main.08c08dae.js.map": "/cdalangin/cunyhackathon22/static/js/main.08c08dae.js.map",
-    "787.edb80a52.chunk.js.map": "/cdalangin/cunyhackathon22/static/js/787.edb80a52.chunk.js.map"
+    "main.css": "/cunyhackathon22/static/css/main.02fb793b.css",
+    "main.js": "/cunyhackathon22/static/js/main.d192d9a1.js",
+    "static/js/787.edb80a52.chunk.js": "/cunyhackathon22/static/js/787.edb80a52.chunk.js",
+    "static/media/google.png": "/cunyhackathon22/static/media/google.0414d84ee5644ebec784.png",
+    "static/media/ferduse.jpg": "/cunyhackathon22/static/media/ferduse.de43c080039b8cddfac9.jpg",
+    "static/media/huilin.jpg": "/cunyhackathon22/static/media/huilin.71fd06071361a29ecd8c.jpg",
+    "static/media/globe.png": "/cunyhackathon22/static/media/globe.97aa9c296d6f61f13dbd.png",
+    "static/media/LandingGraphic.png": "/cunyhackathon22/static/media/LandingGraphic.ae1e8da295e49d8c1967.png",
+    "static/media/BgAccents.png": "/cunyhackathon22/static/media/BgAccents.fb6146e2af499290cd25.png",
+    "static/media/clipboard.png": "/cunyhackathon22/static/media/clipboard.be497babe0d7aa20eee2.png",
+    "static/media/education.png": "/cunyhackathon22/static/media/education.f473eb9fb3775bbda1bd.png",
+    "static/media/faqbg.png": "/cunyhackathon22/static/media/faqbg.5d88c015f954eaab1fb1.png",
+    "static/media/hospital.png": "/cunyhackathon22/static/media/hospital.bf261361c0fcf2177418.png",
+    "static/media/entertainment.png": "/cunyhackathon22/static/media/entertainment.b1cac9fe99f99d3618c4.png",
+    "static/media/orgbottom.png": "/cunyhackathon22/static/media/orgbottom.ad952b41fb6e9fe77641.png",
+    "static/media/orgtop.png": "/cunyhackathon22/static/media/orgtop.be7914a806819c990122.png",
+    "static/media/RetroComputer.ttf": "/cunyhackathon22/static/media/RetroComputer.d3aa5fc07030eb5f05a3.ttf",
+    "index.html": "/cunyhackathon22/index.html",
+    "main.02fb793b.css.map": "/cunyhackathon22/static/css/main.02fb793b.css.map",
+    "main.d192d9a1.js.map": "/cunyhackathon22/static/js/main.d192d9a1.js.map",
+    "787.edb80a52.chunk.js.map": "/cunyhackathon22/static/js/787.edb80a52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae50b0dc.css",
-    "static/js/main.08c08dae.js"
+    "static/css/main.02fb793b.css",
+    "static/js/main.d192d9a1.js"
   ]
 }
